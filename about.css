@@ -1,0 +1,40 @@
+body{
+  background-image: url("photo.jpg");
+  height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image{
+  float: left;
+  margin-left: 200px;
+}
+
+header {
+    color: blue;
+    position: fixed;
+    top: 0;
+    left: 10;
+    width: 100%;
+    z-index: 10000;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+  color: black;
+  font-family:"TeX Gyre Adventor";
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-family:"TeX Gyre Adventor";
+  font-size: 17px;
+  text-align: center;
+}
