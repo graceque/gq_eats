@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background: #131212;
+}
+
+div#masonry {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 90vw;
+  font-size: 0;
+}
+
+div#masonry img {
+  width: 40%;
+  transition: .8s opacity;
+}
+
+div#masonry:hover img {
+  opacity: .3;
+}
+
+div#masonry:hover img:hover {
+  opacity: 1;
+}
+header{
+  color: white
+}
